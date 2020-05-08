@@ -33,7 +33,7 @@ function getPikePosition(pos, dir) {
 
 Pike.prototype.update = function(delta_ms) {
 
-	this.active_time += delta_ms;
+	this.active_time += delta_ms * PIKE_SPEED;
 
 	if (this.active_time < this.appear_time) {
 		this.pos_x = this.position.x;
