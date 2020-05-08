@@ -46,8 +46,8 @@ Menu.prototype.update = function(delta_ms) {
 	this.genocide_text_chars += Math.random() * 0.05 * delta_ms;
 
 	this.text_counter += delta_ms;
-	while (this.text_counter >= 40) {
-		this.text_counter -= 40;
+	while (this.text_counter >= 1) {
+		this.text_counter -= 1;
 		se_text_advance.play();
 	}
 
