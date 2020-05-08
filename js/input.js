@@ -53,6 +53,7 @@ function onKeyDown(e) {
 		handleKeyInput("A", "down");
 	} else if (e.keyCode == 67) {  // C
 		SPEAR_SPEED = 0.75;
+		PIKE_SPEED = 2;
 	}
 }
 
@@ -79,6 +80,7 @@ function onKeyUp(e) {
 		handleKeyInput("A", "up");
 	} else if (e.keyCode == 67) {  // C
 		SPEAR_SPEED = 0.25;
+		PIKE_SPEED = 1;
 	}
 }
 
