@@ -51,6 +51,8 @@ function onKeyDown(e) {
 		handleKeyInput("B", "down");
 	} else if (e.keyCode == 90) {  // Z = A
 		handleKeyInput("A", "down");
+	} else if (e.keyCode == 67) {  // C
+		SPEAR_SPEED = 0.75;
 	}
 }
 
@@ -75,6 +77,8 @@ function onKeyUp(e) {
 		handleKeyInput("B", "up");
 	} else if (e.keyCode == 90) {  // Z = A
 		handleKeyInput("A", "up");
+	} else if (e.keyCode == 67) {  // C
+		SPEAR_SPEED = 0.25;
 	}
 }
 
