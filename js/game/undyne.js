@@ -23,7 +23,7 @@ function Undyne() {
 	this.text_queue_callback = null;
 	this.text_chars = 0;
 	this.text_se = se_undyne;
-	this.cps = 25;
+	this.cps = 100;
 
 	this.sprite = new PIXI.Container();
 	this.sprite.alpha = 1;
