@@ -53,7 +53,6 @@ function onKeyDown(e) {
 		handleKeyInput("A", "down");
 	} else if (e.keyCode == 67) {  // C
 		SPEAR_SPEED = 0.75;
-		console.log("Super fast spear speed");
 	}
 }
 
